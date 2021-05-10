@@ -19,6 +19,9 @@
                         <div class="fix2__boxLeft__box2__desc line-clamp-3">Nhân kỷ niệm 46 năm Ngày giải phóng hoàn toàn miền Nam thống nhất đất nước (30/4/1975 – 30/4/2021), 135 năm Ngày Quốc tế Lao động (1/5/1886 – Nhân kỷ niệm 46 năm Ngày giải phóng hoàn toàn miền Nam thống nhất đất nước (30/4/1975 – 30/4/2021), 135 năm Ngày Quốc tế Lao động (1/5/1886 –</div>
                     </div>
                     <div class="uk-width-2-5@m">
+                        <div class="uk-margin-small">
+                            <h3 class="uk-h3 uk-margin-remove">TIN TỨC NỔI BẬT</h3>
+                        </div>
                         <div class="uk-grid-collapse" uk-grid>
                             <?php
                             $data = array(
@@ -220,7 +223,7 @@
             onTypingResumed: function() { }
           });
         </script>
-        <h2 class="home__title uk-h2 uk-hidden uk-text-left uk-text-uppercase uk-margin">CHỦ ĐỀ NỔI BẬT</h2>
+        <h2 class="home__title uk-h2 uk-text-left uk-margin">Chủ đề nổi bật</h2>
         <div class="mb-40 uk-visible@m" uk-slider>
 
             <div class="uk-position-relative">
@@ -936,7 +939,7 @@
                 <div class="uk-margin uk-card uk-card-default uk-border-rounded home__block01__box--c1">
                     <div class="uk-card-body uk-padding-small">
                         <div class="uk-margin-small home__block03__box1">
-                            <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Pháp luật với người dân</a></h3>
+                            <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Hoạt động của Hội đồng PBGDPL tỉnh</a></h3>
                         </div>
                         <div class="uk-child-width-1-2@m" uk-grid>
                             <div>
@@ -1176,26 +1179,26 @@
                     </div>
                 </div>
                 <div class="uk-margin-small">
-                    <img src="images/banner1.png" alt="">
+                    <img src="images/ttpbdonvi.jpg" alt="">
                 </div>
                 <div class="uk-margin uk-card uk-card-default uk-border-rounded home__block01__box--c1">
                     <div class="uk-card-body uk-padding-small">
                         <div class="uk-margin-small home__block03__box1">
-                            <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Tin hoạt động khác</a></h3>
+                            <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Hướng dẫn nghiệp vụ</a></h3>
                         </div>
                         <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m" uk-grid>
                             <div>
                                 <div class="uk-grid-small" uk-grid>
                                     <div class="uk-width-1-3@m">
                                         <div class="uk-cover-container uk-border-rounded">
-                                            <img src="https://znews-photo.zadn.vn/w360/Uploaded/qhj_dvoahficbu/2021_02_28/11a.jpeg" alt="" uk-cover>
+                                            <img src="http://pbgdpl.thanhhoa.gov.vn/DATA/uploads/51863993-c7a7-4e3d-8684-22afc545be19/images.jpg" alt="" uk-cover>
                                             <canvas width="333" height="212"></canvas>
                                         </div>
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">Chánh văn phòng UBND huyện đột tử tại phòng làm việc</a></h4>
+                                        <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">MỨC XỬ PHẠT MỘT SỐ HÀNH VI VI PHẠM PHÁP LUẬT TRONG PHÒNG, CHỐNG DỊCH BỆNH COVID-19 VÀ CĂN CỨ PHÁP LÝ</a></h4>
                                         <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hoạt động của hội đồng PBGDPL tỉnh</a> <span>25/02/2021</span></div>
-                                        <p class="home__block03__box2__desc">Ông Đoàn Tiến Đạt, Chánh văn phòng UBND huyện Thạch Hà (Hà Tĩnh), được đồng nghiệp phát hiện tử vong tại phòng làm việc.</p>
+                                        <p class="home__block03__box2__desc">Một số mức phạt được quy định trong Nghị định số 117/2020/NĐ-CP ngày 28/09/2020 của Chính phủ về xử phạt hành chính trong lĩnh vực y tế</p>
                                     </div>
                                 </div>
                             </div>
@@ -1203,14 +1206,15 @@
                                 <div class="uk-grid-small" uk-grid>
                                     <div class="uk-width-1-3@m">
                                         <div class="uk-cover-container uk-border-rounded">
-                                            <img src="https://znews-photo.zadn.vn/w360/Uploaded/natmzz/2021_02_27/bl.JPG" alt="" uk-cover>
+                                            <img src="http://pbgdpl.thanhhoa.gov.vn/DATA/uploads/bb238735-138c-4604-a0a0-e36db99c4d69/Ha%20Trung.jpg" alt="" uk-cover>
                                             <canvas width="333" height="212"></canvas>
                                         </div>
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">Torres trở thành thần tượng cơ bắp</a></h4>
+                                        <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">
+                                                HUYỆN HÀ TRUNG: HOẠT ĐỘNG PHỔ BIẾN, GIÁO DỤC PHÁP LUẬT GẮN VỚI THỰC TIỄN HOẠT ĐỘNG CỦA CÁN BỘ Ở CƠ SỞ</a></h4>
                                         <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hoạt động của hội đồng PBGDPL tỉnh</a> <span>25/02/2021</span></div>
-                                        <p class="home__block03__box2__desc">CĐV trầm trồ khi chứng kiến hình ảnh mới nhất về thân hình vạm vỡ của Fernando Torres, tiền đạo lừng danh một thời của bóng đá Tây Ban Nha.</p>
+                                        <p class="home__block03__box2__desc">Tuyên truyền, phổ biến, giáo dục pháp luật (PBGDPL) đóng một vai trò vô cùng quan trọng trong việc đưa pháp luật vào cuộc sống, nâng cao hiểu biết pháp luật cho cán bộ và người dân, góp phần thúc đẩy phát triển kinh tế - xã hội, ổn định tình hình an ninh trật tự ở mỗi địa phương.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1218,14 +1222,14 @@
                                 <div class="uk-grid-small" uk-grid>
                                     <div class="uk-width-1-3@m">
                                         <div class="uk-cover-container uk-border-rounded">
-                                            <img src="https://znews-photo.zadn.vn/w210/Uploaded/ngotgs/2021_03_03/155360871_1729829540560612_306417970709236646_n.jpg" alt="" uk-cover>
+                                            <img src="http://pbgdpl.thanhhoa.gov.vn/DATA/uploads/bb238735-138c-4604-a0a0-e36db99c4d69/Ha%20Trung.jpg" alt="" uk-cover>
                                             <canvas width="333" height="212"></canvas>
                                         </div>
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">Gareth Bale lập cú đúp trong chiến thắng 4-0 của Tottenham</a></h4>
+                                        <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">HUYỆN HÀ TRUNG: HOẠT ĐỘNG PHỔ BIẾN, GIÁO DỤC PHÁP LUẬT GẮN VỚI THỰC TIỄN HOẠT ĐỘNG CỦA CÁN BỘ Ở CƠ SỞ</a></h4>
                                         <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hoạt động của hội đồng PBGDPL tỉnh</a> <span>25/02/2021</span></div>
-                                        <p class="home__block03__box2__desc">Tiền đạo Gareth Bale tỏa sáng khi ghi dấu ấn ở 3 trong 4 bàn thắng của Tottenham trước Burnley tại vòng 26 Premier League tối 28/2 (giờ Hà Nội).</p>
+                                        <p class="home__block03__box2__desc">Tuyên truyền, phổ biến, giáo dục pháp luật (PBGDPL) đóng một vai trò vô cùng quan trọng trong việc đưa pháp luật vào cuộc sống, nâng cao hiểu biết pháp luật cho cán bộ và người dân, góp phần thúc đẩy phát triển kinh tế - xã hội, ổn định tình hình an ninh trật tự ở mỗi địa phương.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1297,6 +1301,12 @@
                                 </fieldset>
                             </form>
                         </div>
+                    </div>
+                    <div class="uk-margin-small">
+                        <a href=""><img class="uk-width-1-1" src="images/csdlqg.jpg" alt=""></a>
+                    </div>
+                    <div class="uk-margin-small">
+                        <a href=""><img class="uk-width-1-1" src="images/tusachphapluat.png" alt=""></a>
                     </div>
                 </div>
             </div>

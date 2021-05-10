@@ -29,9 +29,9 @@
                 <div class="uk-container">
                     <div class="uk-flex-bottom" uk-grid>
                         <div class="uk-width-expand">
-                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-grid-collapse uk-flex-middle" uk-grid>
                                 <div class="uk-width-auto">
-                                    <img src="images/LOGO.png" alt="">
+                                    <img src="images/quochuy1.png" alt="">
                                 </div>
                                 <div class="uk-width-expand">
                                     <h1 class="uk-h1 header__top__title" uk-toggle="cls: header__top__title--c1; mode: media; media: (max-width: 375px)">THÔNG TIN PHỔ BIẾN GIÁO DỤC PHÁP LUẬT</h1>
@@ -40,6 +40,17 @@
                             </div>
                         </div>
                         <div class="uk-width-auto@m uk-visible@m">
+                            <div class="uk-child-width-auto uk-grid-small uk-flex-right uk-margin-small" uk-grid>
+                                <div>
+                                    <a href=""><img src="images/facebook.png" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href=""><img src="images/youtube.png" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href=""><img src="images/zalo1.png" alt=""></a>
+                                </div>
+                            </div>
                             <form class="uk-search uk-search-default uk-border-rounded header__top__form uk-background-default">
                                 <span uk-search-icon></span>
                                 <input class="uk-search-input uk-border-rounded header__top__search" type="search" placeholder="Tìm kiếm">
@@ -64,15 +75,9 @@
                             </div>
                             <ul class="uk-navbar-nav uk-visible@m">
                                 <li class="uk-active"><a href="#"><i style="font-size: 20px;" class="fa fa-home" aria-hidden="true"></i></a></li>
-                                <li>
-                                    <a href="#">TÌNH HUỐNG PHÁP LUẬT</a>
-                                </li>
-                                <li>
-                                    <a href="#">TỦ SÁCH PHÁP LUẬT</a>
-                                </li>
-                                <li><a href="#">TIN TỨC</a></li>
-                                <li><a href="#">HỎI ĐÁP</a></li>
                                 <li><a href="#">GIỚI THIỆU</a></li>
+                                <li><a href="#">TIN TỨC</a></li>
+                                <li><a href="#">TÌNH HUỐNG PHÁP LUẬT</a></li>
                             </ul>
 
                         </div>
