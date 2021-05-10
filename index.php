@@ -5,7 +5,7 @@
 <!---->
 <div class="uk-section-xsmall uk-background-muted">
     <div class="uk-container">
-        <div class="uk-grid-small uk-grid-match" uk-grid>
+        <div class="uk-grid-small" uk-grid uk-toggle="cls: uk-grid-match; mode: media; media: @m">
             <div class="uk-width-expand">
                 <div class="uk-grid-small uk-margin-small" uk-grid>
                     <div class="uk-width-expand">
@@ -114,7 +114,7 @@
                     <div class="uk-card-header uk-padding-small fix2__card1__header">
                         <span class="fix2__card1__header__txt">SỰ KIỆN</span>
                     </div>
-                    <div class="uk-card-body uk-flex-1 uk-padding-small fix2__card1__body">
+                    <div class="uk-card-body uk-padding-small fix2__card1__body" uk-toggle="cls: uk-flex-1; mode: media; media: @m">
                         <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="up" scrollamount="1" style="">
                             <?php
                             $data = array(

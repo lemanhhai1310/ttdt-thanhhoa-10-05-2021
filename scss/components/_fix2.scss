@@ -8,6 +8,11 @@
       }
     }
     &__body{
+      @include media-breakpoint-down('s'){
+        >*{
+          height: 236px;
+        }
+      }
       &__item{
         &:nth-child(n+2){
           margin-top: 5px;
