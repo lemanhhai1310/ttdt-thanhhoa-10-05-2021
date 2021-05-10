@@ -1,0 +1,18 @@
+.fix3{
+  &__title1{
+    @extend .fz-15;
+    color: #d71921;
+    font-family: $font-primary-Black;
+    padding-top: 10px;
+    border-top: 1px solid currentColor;
+  }
+  &__box1{
+    $x: 8px;
+    padding: #{$x};
+    &__title{
+      a{
+        color: #000;
+      }
+    }
+  }
+}

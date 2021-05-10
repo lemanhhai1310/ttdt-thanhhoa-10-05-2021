@@ -18,9 +18,9 @@
                         </div>
                         <div class="fix2__boxLeft__box2__desc line-clamp-3">Nhân kỷ niệm 46 năm Ngày giải phóng hoàn toàn miền Nam thống nhất đất nước (30/4/1975 – 30/4/2021), 135 năm Ngày Quốc tế Lao động (1/5/1886 – Nhân kỷ niệm 46 năm Ngày giải phóng hoàn toàn miền Nam thống nhất đất nước (30/4/1975 – 30/4/2021), 135 năm Ngày Quốc tế Lao động (1/5/1886 –</div>
                     </div>
-                    <div class="uk-width-2-5@m">
+                    <div class="uk-width-2-5@m uk-visible@m">
                         <div class="uk-margin-small">
-                            <h3 class="uk-h3 uk-margin-remove">TIN TỨC NỔI BẬT</h3>
+                            <h3 class="uk-h3 uk-margin-remove fix3__title1">TIN TỨC NỔI BẬT</h3>
                         </div>
                         <div class="uk-grid-collapse" uk-grid>
                             <?php
@@ -87,46 +87,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="fix2__card2__body uk-card-body uk-padding-small">
+                    <div class="fix2__card2__body uk-card-body uk-padding-remove">
                         <div class="uk-overflow-hidden">
                             <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
 
-                                <ul class="uk-slider-items uk-child-width-1-1 uk-grid-10" uk-grid>
+                                <ul class="uk-slider-items uk-child-width-1-1">
                                     <?php for ($i=0;$i<=3;$i++): ?>
                                         <li>
-                                            <?php
-                                            $data = array(
-                                                array(
-                                                    'src' => 'https://i-raovat.vnecdn.net/2021/04/29/56bef9d5_1619658271.jpg?w=268&h=160&q=100&dpr=1&rt=fill&g=ce&s=ftmSuUXLh6BvusUO5nFUJw',
-                                                    'title' => 'Tôi cần mua xe GLS 400 màu đen 2017 -...',
-                                                ),
-                                                array(
-                                                    'src' => 'https://i-raovat.vnecdn.net/2021/04/19/c4ab36f2_1618820761.jpg?w=268&h=160&q=100&dpr=1&rt=fill&g=ce&s=4Ut_dk4ClOt_V2CMKOhdWA',
-                                                    'title' => 'Shophouse mặt tiền đường Nguyễn Lương Bằng Quận 7',
-                                                ),
-                                                array(
-                                                    'src' => 'https://i-raovat.vnecdn.net/2021/04/28/e07f04a2_1619601742.jpg?w=268&h=160&q=100&dpr=1&rt=fill&g=ce&s=jEC7QZiAE_sAo2ASJMpirg',
-                                                    'title' => 'Cho thuê căn LK mặt đường 70 Xuân Phương, gần...',
-                                                ),
-                                            );
-                                            foreach ($data as $k => $v): ?>
-                                                <div class="uk-grid-10 uk-margin-small" uk-grid>
-                                                    <div class="uk-width-1-1">
-                                                        <div class="uk-grid-10" uk-grid>
-                                                            <div class="uk-width-1-3">
-                                                                <div class="uk-cover-container">
-                                                                    <img src="<?= $v['src'] ?>" alt="" uk-cover>
-                                                                    <canvas width="98" height="59"></canvas>
-                                                                </div>
-                                                            </div>
-                                                            <div class="uk-width-expand">
-                                                                <h6 class="fix2__card2__body__item__title uk-h6 uk-margin-remove line-clamp-2"><a href=""><?= $v['title'] ?></a></h6>
-                                                                <div class="fix2__card2__body__item__date">29/04/2021</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            <?php endforeach; ?>
+                                            <div class="uk-cover-container">
+                                                <img src="images/Layer90.png" alt="" uk-cover>
+                                                <canvas width="324" height="223"></canvas>
+                                            </div>
+                                            <div class="fix3__box1">
+                                                <h6 class="uk-h6 uk-margin-remove fix3__box1__title"><a href="">Xử lý vi phạm pháp luật trong phòng, chống
+                                                        dịch bệnh</a></h6>
+                                            </div>
                                         </li>
                                     <?php endfor; ?>
                                 </ul>
@@ -140,7 +115,7 @@
                         <span class="fix2__card1__header__txt">SỰ KIỆN</span>
                     </div>
                     <div class="uk-card-body uk-flex-1 uk-padding-small fix2__card1__body">
-                        <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="up" scrollamount="1" style="min-height: 265px">
+                        <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="up" scrollamount="1" style="">
                             <?php
                             $data = array(
                                 'Phê duyệt quyết toán dự án hoàn thành công trình: Trung tâm Giới thiệu việc làm Thanh Hóa',
@@ -169,9 +144,6 @@
 <!--CHỦ ĐỀ NỔI BẬT-->
 <div class="home__block02 home__block02--c1 uk-section-small">
     <div class="uk-container">
-        <div class="uk-hidden@s uk-padding-small fix1__tin1">
-            <div class="line-clamp-2">TIN NỔI BẬT: <span>Vì sao vaccine Covid-19 ở Việt Nam có giá 60.000 đồng một liều? Nhiều phụ nữ nước ngoài tố cáo bị quấy rối tình dục ở hồ <Tây></Tây></span></div>
-        </div>
         <div hidden class="home__block02__box2 uk-visible@s uk-border-rounded uk-margin-bottom uk-box-shadow-small">
             <span class="home__block02__box2__txt" hidden>TIN NỔI BẬT: <span id="typed"></span></span>
             <div class="uk-grid-10" uk-grid>
@@ -224,7 +196,7 @@
           });
         </script>
         <h2 class="home__title uk-h2 uk-text-left uk-margin">Chủ đề nổi bật</h2>
-        <div class="mb-40 uk-visible@m" uk-slider>
+        <div class="mb-40" uk-slider>
 
             <div class="uk-position-relative">
 
@@ -288,122 +260,7 @@
             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
 
         </div>
-        <!--
-        <div class="home__block01__slider uk-hidden" uk-slider="autoplay: false">
-            <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
 
-                <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-child-width-1-6@l uk-grid-small uk-grid-24-m" uk-grid>
-                    <?php
-                    $data = array(
-                        array(
-                            'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/yqdxwpjwq/2021_02_28/thumb_2.jpg',
-                            'title' => 'Tại sao đàn ông thích đeo đồng hồ?',
-                        ),
-                        array(
-                            'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/yzizh/2021_02_28/thumb.jpg',
-                            'title' => 'Đánh giá Honda CB500X 2020 - xe phượt đa dụng, giá cao',
-                        ),
-                        array(
-                            'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/lce_qjlcv/2021_02_27/rrret.jpg',
-                            'title' => 'Hà Nội đón đợt lạnh mới',
-                        ),
-                        array(
-                            'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/yqdxwpjwq/2021_02_24/pin_2_1.jpg',
-                            'title' => 'Những dấu hiệu cho biết sản phẩm trang điểm không còn dùng được',
-                        ),
-                        array(
-                            'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/liqpwivo/2021_02_28/allihead_1.jpg',
-                            'title' => 'Tìm thấy 80 đầu cá sấu trong một căn hộ ở Anh',
-                        ),
-                        array(
-                            'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/uqvpbpci/2021_02_28/58caf6ad4894bbcae285.jpg',
-                            'title' => 'Trung tâm thương mại tại TP.HCM nhộn nhịp ngày cuối tuần',
-                        ),
-                        array(
-                            'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/neg_efjpyye/2020_02_23/Cuoc_doi_va_su_nghiep_Warren_Buffett_11.jpg',
-                            'title' => 'Sai lầm gây thiệt hại 10 tỷ USD của Warren Buffett',
-                        ),
-                    );
-                    foreach ($data as $k => $v): ?>
-                        <li>
-                            <div class="uk-position-relative">
-                                <div class="uk-cover-container uk-border-rounded home__block02__box1">
-                                    <img src="<?= $v['src'] ?>" alt="" uk-cover>
-                                    <canvas width="633" height="600"></canvas>
-                                    <div class="uk-position-bottom uk-text-center uk-padding-small home__block02__box1__bg">
-                                        <h4 class="uk-h4 line-clamp-3 uk-text-uppercase home__block01__box__title home__block01__box__title--c1 uk-margin-remove"><a href=""><?= $v['title'] ?></a></h4>
-                                    </div>
-                                </div>
-                                <div class="uk-position-bottom home__block02__box1__bg1"><img src="images/boxshadow1.png" alt=""></div>
-                            </div>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-
-                <div class="uk-hidden@s uk-hidden">
-                    <a class="uk-position-center-left home__block01__slider__nav uk-position-small uk-hidden-hover1" href="#" uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 1"></span></a>
-                    <a class="uk-position-center-right home__block01__slider__nav uk-position-small uk-hidden-hover1" href="#" uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 1"></span></a>
-                </div>
-
-            </div>
-
-            <ul class="home__block01__slider__dot home__block01__slider__dot--c1 uk-slider-nav uk-dotnav uk-flex-center uk-margin-small-top"></ul>
-
-        </div>
-        -->
-        <div class="uk-hidden@m">
-            <div class="uk-child-width-1-1 uk-grid-small uk-grid-25-m" uk-grid>
-                <?php
-                $data = array(
-                    array(
-                        'src' => 'https://znews-photo.zadn.vn/w960/Uploaded/mdf_reovdl/2021_02_28/lay_mau.jpg',
-                        'title' => 'Thêm 16 ca Covid-19, 4 người nhập cảnh',
-                    ),
-                    array(
-                        'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/zdhwqwqd2/2021_02_18/2021_02_08T121306Z_1530549362_RC2COL9QTPB6_RTRMADP_3_HEALTH_CORONAVIRUS_CHINA.JPG',
-                        'title' => 'Tình tiết mới về bệnh nhân số 0 ở Vũ Hán',
-                    ),
-                    array(
-                        'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/cqjlqcqjx/2021_02_28/benhvien13__1.jpg',
-                        'title' => 'Giải thể Bệnh viện dã chiến số 1 ở Hải Dương',
-                    ),
-                    array(
-                        'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/rohunuk/2021_02_28/Lay_may_tai_TSN_10.jpg',
-                        'title' => 'Thêm ca mắc Covid-19, Đồng Tháp họp khẩn',
-                    ),
-                    array(
-                        'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/natmzz/2021_02_28/2021_02_28T124055Z_1352417996_UP1EH2S0Z87S4_RTRMADP_3_SOCCER_ENGLAND_LEI_ARS_REPORT.JPG',
-                        'title' => 'Leicester 1-3 Arsenal: Pepe tỏa sáng',
-                    ),
-
-                );
-                foreach ($data as $k => $v): ?>
-                    <div>
-                        <div class="uk-card uk-position-relative uk-card-default home__block01__box uk-border-rounded uk-overflow-hidden">
-                            <div class="uk-cover-container">
-                                <img src="<?= $v['src'] ?>" alt="" uk-cover>
-                                <canvas width="327" height="237"></canvas>
-                            </div>
-                            <div class="uk-card-body uk-padding-small home__block01__box__body">
-                                <h4 class="uk-h4 uk-text-uppercase home__block01__box__title"><a href=""><?= $v['title'] ?></a></h4>
-                                <div class="uk-grid-5" uk-grid>
-                                    <div class="uk-width-auto">
-                                        <div class="uk-cover-container uk-border-circle">
-                                            <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
-                                            <canvas width="24" height="24"></canvas>
-                                        </div>
-                                    </div>
-                                    <div class="uk-width-expand">
-                                        <span class="home__block01__box__txt"><a href="">Quy định xử phạt vi phạm giao thông</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-position-bottom home__block02__box1__bg2"><img src="images/boxshadow2.png" alt=""></div>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        </div>
 
         <div class="uk-card uk-hidden fix1__card uk-margin uk-visible@m" uk-slider uk-toggle="cls: uk-margin-medium; mode: media; media: @l">
             <div class="uk-padding-small fix1__card__header uk-padding-remove-left uk-padding-remove-right">
@@ -599,7 +456,7 @@
             <div class="uk-padding-small fix1__card__header uk-padding-remove-left uk-padding-remove-right">
                 <div class="uk-flex-middle" uk-grid>
                     <div class="uk-width-expand">
-                        <h2 class="home__title uk-h2 uk-text-left uk-margin-remove">Tài liệu phổ biến giáo dục pháp luật</h2>
+                        <h2 class="home__title uk-h2 uk-text-left uk-margin-remove">Tài liệu phổ biến pháp luật</h2>
                     </div>
                     <div class="uk-width-auto">
                         <a class="" href="#" uk-icon="icon: chevron-left; ratio: 1" uk-slider-item="previous"></a>
@@ -1197,7 +1054,7 @@
                                     </div>
                                     <div class="uk-width-expand">
                                         <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">MỨC XỬ PHẠT MỘT SỐ HÀNH VI VI PHẠM PHÁP LUẬT TRONG PHÒNG, CHỐNG DỊCH BỆNH COVID-19 VÀ CĂN CỨ PHÁP LÝ</a></h4>
-                                        <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hoạt động của hội đồng PBGDPL tỉnh</a> <span>25/02/2021</span></div>
+                                        <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Phổ biến giáo dục pháp luật</a> <span>25/02/2021</span></div>
                                         <p class="home__block03__box2__desc">Một số mức phạt được quy định trong Nghị định số 117/2020/NĐ-CP ngày 28/09/2020 của Chính phủ về xử phạt hành chính trong lĩnh vực y tế</p>
                                     </div>
                                 </div>
@@ -1213,7 +1070,7 @@
                                     <div class="uk-width-expand">
                                         <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">
                                                 HUYỆN HÀ TRUNG: HOẠT ĐỘNG PHỔ BIẾN, GIÁO DỤC PHÁP LUẬT GẮN VỚI THỰC TIỄN HOẠT ĐỘNG CỦA CÁN BỘ Ở CƠ SỞ</a></h4>
-                                        <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hoạt động của hội đồng PBGDPL tỉnh</a> <span>25/02/2021</span></div>
+                                        <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hòa giải ở cơ sở </a> <span>25/02/2021</span></div>
                                         <p class="home__block03__box2__desc">Tuyên truyền, phổ biến, giáo dục pháp luật (PBGDPL) đóng một vai trò vô cùng quan trọng trong việc đưa pháp luật vào cuộc sống, nâng cao hiểu biết pháp luật cho cán bộ và người dân, góp phần thúc đẩy phát triển kinh tế - xã hội, ổn định tình hình an ninh trật tự ở mỗi địa phương.</p>
                                     </div>
                                 </div>
@@ -1228,7 +1085,7 @@
                                     </div>
                                     <div class="uk-width-expand">
                                         <h4 class="uk-h4 uk-margin-small home__block01__box__title uk-text-uppercase"><a href="">HUYỆN HÀ TRUNG: HOẠT ĐỘNG PHỔ BIẾN, GIÁO DỤC PHÁP LUẬT GẮN VỚI THỰC TIỄN HOẠT ĐỘNG CỦA CÁN BỘ Ở CƠ SỞ</a></h4>
-                                        <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hoạt động của hội đồng PBGDPL tỉnh</a> <span>25/02/2021</span></div>
+                                        <div class="home__block03__box2__desc home__block03__box2__desc--c1"><a href="">Hòa giải ở cơ sở </a> <span>25/02/2021</span></div>
                                         <p class="home__block03__box2__desc">Tuyên truyền, phổ biến, giáo dục pháp luật (PBGDPL) đóng một vai trò vô cùng quan trọng trong việc đưa pháp luật vào cuộc sống, nâng cao hiểu biết pháp luật cho cán bộ và người dân, góp phần thúc đẩy phát triển kinh tế - xã hội, ổn định tình hình an ninh trật tự ở mỗi địa phương.</p>
                                     </div>
                                 </div>
@@ -1240,7 +1097,7 @@
             <div class="uk-width-1-4@m">
                 <div uk-sticky="offset: 60;media: 640;bottom: true;">
                     <div class="uk-margin-small home__block03__box1">
-                        <h3 class="home__block03__box1__title uk-h3 uk-text-uppercase uk-margin-remove uk-display-inline-block"><a href="">TRẮC NGHIỆM</a></h3>
+                        <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Trắc nghiệm</a></h3>
                     </div>
                     <div class="uk-card uk-card-default uk-border-rounded home__block03__aside home__block01__box--c1">
                         <div class="uk-card-body uk-padding-small home__block03__aside__body">
