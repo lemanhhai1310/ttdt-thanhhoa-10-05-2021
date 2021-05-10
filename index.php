@@ -796,7 +796,14 @@
                 <div class="uk-margin uk-card uk-card-default uk-border-rounded home__block01__box--c1">
                     <div class="uk-card-body uk-padding-small">
                         <div class="uk-margin-small home__block03__box1">
-                            <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Hoạt động của Hội đồng PBGDPL tỉnh</a></h3>
+                            <div class="uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Hoạt động của Hội đồng PBGDPL tỉnh</a></h3>
+                                </div>
+                                <div class="uk-width-auto">
+                                    <a href="" class="uk-link-toggle"><span uk-icon="icon: chevron-right; ratio: 1"></span></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="uk-child-width-1-2@m" uk-grid>
                             <div>
@@ -917,7 +924,14 @@
                 <div class="uk-margin uk-card uk-card-default uk-border-rounded home__block01__box--c1">
                     <div class="uk-card-body uk-padding-small">
                         <div class="uk-margin-small home__block03__box1">
-                            <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Pháp luật với doanh nghiệp</a></h3>
+                            <div class="uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Pháp luật với doanh nghiệp</a></h3>
+                                </div>
+                                <div class="uk-width-auto">
+                                    <a href="" class="uk-link-toggle"><span uk-icon="icon: chevron-right; ratio: 1"></span></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="uk-child-width-1-2@m" uk-grid>
                             <div>
@@ -1041,7 +1055,14 @@
                 <div class="uk-margin uk-card uk-card-default uk-border-rounded home__block01__box--c1">
                     <div class="uk-card-body uk-padding-small">
                         <div class="uk-margin-small home__block03__box1">
-                            <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Hướng dẫn nghiệp vụ</a></h3>
+                            <div class="uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <h3 class="home__block03__box1__title uk-h3 uk-margin-remove uk-display-inline-block"><a href="">Hướng dẫn nghiệp vụ</a></h3>
+                                </div>
+                                <div class="uk-width-auto">
+                                    <a href="" class="uk-link-toggle"><span uk-icon="icon: chevron-right; ratio: 1"></span></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m" uk-grid>
                             <div>
@@ -1168,7 +1189,7 @@
                 </div>
             </div>
         </div>
-        <div class=" uk-margin" uk-slider>
+        <div class=" uk-margin" uk-slider="autoplay: true;">
 
             <div class="uk-position-relative">
 
@@ -1182,6 +1203,7 @@
                             'images/anh1/z2482415616662_a4376a87405936cc616fec8e2f063985.jpg',
                             'images/anh1/z2482415878102_9ac7fe01e6671b181053867b5203656b.jpg',
                             'images/anh1/z2482416221420_6010d380a624a846f55fa7eb8ad1007c.jpg',
+                            'images/anh1/z2482609581252_52639343c4e4e137fe3b12dfabd8ee7c (1).jpg',
                         );
                         foreach ($data as $k => $v): ?>
                         <li>
